@@ -3,7 +3,7 @@ from os import path, getcwd, environ
 import os
 
 class LoggerConan(ConanFile):
-   name = "logger"
+   name = "logger-cpp"
    version = "0.1.0"
    author = "xqp"
    settings = "os", "compiler", "build_type", "arch"
