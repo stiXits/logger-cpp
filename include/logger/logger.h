@@ -2,6 +2,7 @@
 #define LOGGER_H
 
 #include <functional>
+#include <string>
 
 #define LOG(logger, loglevel, expression)                                      \
   if (logger->getLogLevel() <= loglevel) {                                     \
