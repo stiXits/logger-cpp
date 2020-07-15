@@ -11,7 +11,7 @@ class LoggerConan(ConanFile):
    root = "%s-%s" % (name, version)
 
    def source(self):
-      self.run("git clone https://github.com/xqp/logger-cpp.git")
+      self.run("git clone https://github.com/stiXits/logger-cpp.git")
       os.rename(self.name, self.root)
 
    def build(self):
